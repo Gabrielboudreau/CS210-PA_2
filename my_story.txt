@@ -1,5 +1,143 @@
 START_HP 10
-SCENE Replace this file with your own story.
+SCENE Start
+HP 0
+LOOT 0
+ITEM none
+CHOICES 2
+LABEL Cave
+SCENE Cave
+HP 0
+LOOT 1
+ITEM none
+CHOICES 2
+LABEL Left path
+SCENE Left path
+HP 0
+LOOT 0
+ITEM none
+CHOICES 2
+LABEL Suspicious Vase
+SCENE Suspicious Vase
+HP 0
+LOOT 5
+ITEM none
+CHOICES 0
+LABEL Growling chest
+SCENE Growling chest
+HP -10
+LOOT 0
+ITEM none
+CHOICES 0
+LABEL Right path
+SCENE Bear attack
+HP 0
+LOOT 0
+ITEM none
+CHOICES 3
+LABEL Aim for head
+SCENE He eats you
+HP 0
+LOOT 0
+ITEM none
+CHOICES 0
+LABEL Aim for neck
+SCENE He swipes at you, but you win
+HP -5
+LOOT 0
+ITEM none
+CHOICES 2
+LABEL Take his pelt
+SCENE You sell the pelt and become famous
+HP -1
+LOOT 6
+ITEM none
+CHOICES 0
+LABEL Take his meat
+SCENE You survive and escape with the meat
+HP 0
+LOOT 0
+ITEM none
+CHOICES 0
+LABEL Aim for heart
+SCENE You defeat him in one strike
+HP 0
+LOOT 0
+ITEM none
+CHOICES 2
+LABEL Take his pelt
+SCENE You sell the pelt and become famous
+HP -1
+LOOT 6
+ITEM none
+CHOICES 0
+LABEL Take his meat
+SCENE You survive and escape with the meat
+HP 0
+LOOT 0
+ITEM none
+CHOICES 0
+LABEL Forest
+SCENE Forest
+HP -1
+LOOT 0
+ITEM none
+CHOICES 2
+LABEL Follow path
+SCENE Follow path
+HP 0
+LOOT 0
+ITEM none
+CHOICES 1
+LABEL Continue
+SCENE Bear attack
+HP 0
+LOOT 0
+ITEM none
+CHOICES 3
+LABEL Aim for head
+SCENE He eats you
+HP 0
+LOOT 0
+ITEM none
+CHOICES 0
+LABEL Aim for neck
+SCENE He swipes at you, but you win
+HP -5
+LOOT 0
+ITEM none
+CHOICES 2
+LABEL Take his pelt
+SCENE You sell the pelt and become famous
+HP -1
+LOOT 6
+ITEM none
+CHOICES 0
+LABEL Take his meat
+SCENE You survive and escape with the meat
+HP 0
+LOOT 0
+ITEM none
+CHOICES 0
+LABEL Aim for heart
+SCENE You defeat him in one strike
+HP 0
+LOOT 0
+ITEM none
+CHOICES 2
+LABEL Take his pelt
+SCENE You sell the pelt and become famous
+HP -1
+LOOT 6
+ITEM none
+CHOICES 0
+LABEL Take his meat
+SCENE You survive and escape with the meat
+HP 0
+LOOT 0
+ITEM none
+CHOICES 0
+LABEL Go into forest
+SCENE You get lost in the forest
 HP 0
 LOOT 0
 ITEM none
