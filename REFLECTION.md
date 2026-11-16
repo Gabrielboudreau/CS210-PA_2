@@ -130,9 +130,9 @@ would not be properly released.
 
 ## 4. Show the path greedy took and the path optimal took on your story, with the loot for each. Explain why greedy lost. If greedy did not lose, change your story until it does, and explain what you changed.
 
-When running my story, the greedy algorithm followed the path 2-2-1, accumulated 0 loot,
+When running my story, the greedy algorithm followed the path 1-1-1, accumulated 6 loot,
 died before reaching the ending. In contrast, the optimal algorithm took the path
-2-2-1-2-1, collected 15 loot, and reached the ending. Greedy lost because it chose
+1-2-2-1, collected 7 loot, and reached the ending. Greedy lost because it chose
 the options that gave the most loot right away without thinking about the consequences of those
 decisions later in the story. The optimal algorithm looked at all possible paths and chose the most
 A beneficial outcome that still let the player survive.
